@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import Chart from 'chart.js';
+import LineChart from './components/LineChart.jsx'
 
 const App = () => {
+
   return (
-    <div>
-      Hello World!
-    </div>
+    <div >
+      <LineChart />
+    </div >
   );
 }
 
